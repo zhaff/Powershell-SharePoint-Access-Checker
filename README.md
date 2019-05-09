@@ -3,7 +3,7 @@ Powershell script to generate all access permissions in a given SharePoint site.
 
 ## Step to run the script
 
-1) Clone the report to a new folder. Example: "C:\sp-checker"
+1) Clone this repo to a new folder. Example: "C:\sp-checker"
 
 2) Install PowerShell SharePoint module according to your SharePoint version here: 
 https://github.com/sharepoint/pnp-powershell/releases
