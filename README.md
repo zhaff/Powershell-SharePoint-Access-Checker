@@ -3,9 +3,9 @@ Powershell script to generate all access permissions in a given SharePoint site.
 
 ## Step to run the script
 
-1) Unzip the zip file to folder "C:\sp-checker"
+1) Clone the report to a new folder. Example: "C:\sp-checker"
 
-2) Install PowerShell SharePoint module accoding to your SharePoint version here: 
+2) Install PowerShell SharePoint module according to your SharePoint version here: 
 https://github.com/sharepoint/pnp-powershell/releases
 
 3) Open file "sp-checker.ps1" using Notepad
@@ -26,7 +26,9 @@ $LogsFolder = "C:\sp-checker\logs"
 $URLsFile = "C:\sp-checker\SiteCollectionList.csv" 
 ```
 
-4) Save
+4) Save your settings
+
+5) Add your SharePoint URLS in file "SiteCollectionList.csv" (using Notepad)
 
 5) Right-click the file "get-sp-access.ps1" and click Run with PowerShell
 
@@ -34,7 +36,4 @@ $URLsFile = "C:\sp-checker\SiteCollectionList.csv"
 
 * If you need to stop it, press CTRL + C
 
-6) All logs files can be found in folder "C:\sp-checker\logs"
-
-* You may update URLs to execute in excel file: "SiteCollectionList.csv" using Notepad
-
+6) All generated logs files can be found in folder defined in step 1. Example: "C:\sp-checker\logs"
