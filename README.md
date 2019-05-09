@@ -1,5 +1,5 @@
 # Powershell-SharePoint-Access-Checker
-Powershell script to generate all access permissions in a given SharePoint site.
+Powershell script to generate list of all access permissions in a given SharePoint site.
 
 ## Step to run the script
 
